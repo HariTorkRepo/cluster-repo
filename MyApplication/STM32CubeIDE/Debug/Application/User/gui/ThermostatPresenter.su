@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/thermostat_screen/ThermostatPresenter.hpp:28:13:ThermostatPresenter::~ThermostatPresenter()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/thermostat_screen/ThermostatPresenter.cpp:10:6:virtual void ThermostatPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/thermostat_screen/ThermostatPresenter.hpp:28:13:virtual ThermostatPresenter::~ThermostatPresenter()	8	static
+../../TouchGFX/gui/include/gui/thermostat_screen/ThermostatPresenter.hpp:28:13:virtual void* ThermostatPresenter::_ZThn4_N19ThermostatPresenterD1Ev()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/thermostat_screen/ThermostatPresenter.cpp:4:1:ThermostatPresenter::ThermostatPresenter(ThermostatView&)	8	static

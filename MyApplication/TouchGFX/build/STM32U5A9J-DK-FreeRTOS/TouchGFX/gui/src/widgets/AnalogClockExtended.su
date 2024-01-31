@@ -1,0 +1,20 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+AnalogClock.hpp:174:22:virtual uint16_t touchgfx::AnalogClock::getAnimationDuration()	0	static
+AnalogClockExtended.cpp:24:1:touchgfx::AnalogClockExtended::~AnalogClockExtended()	0	static
+AnalogClockExtended.cpp:28:6:virtual void touchgfx::AnalogClockExtended::setAlpha(uint8_t)	0	static
+AnalogClockExtended.cpp:36:9:virtual uint8_t touchgfx::AnalogClockExtended::getAlpha() const	0	static
+AnalogClockExtended.cpp:24:1:virtual touchgfx::AnalogClockExtended::~AnalogClockExtended()	8	static
+AnalogClock.hpp:219:18:virtual void touchgfx::AnalogClock::invalidateContent() const	8	static
+AnalogClockExtended.cpp:20:1:touchgfx::AnalogClockExtended::AnalogClockExtended()	8	static
+AnalogClockExtended.cpp:40:6:void touchgfx::AnalogClockExtended::setMinuteZAngle(float)	0	static
+AnalogClockExtended.cpp:44:6:void touchgfx::AnalogClockExtended::setSecondsZAngle(float)	0	static

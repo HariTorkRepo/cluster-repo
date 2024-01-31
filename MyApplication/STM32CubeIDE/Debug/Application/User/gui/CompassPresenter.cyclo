@@ -1,0 +1,5 @@
+CompassPresenter.hpp:28:13:CompassPresenter::~CompassPresenter()	1
+CompassPresenter.cpp:10:6:virtual void CompassPresenter::activate()	1
+CompassPresenter.hpp:28:13:virtual CompassPresenter::~CompassPresenter()	1
+CompassPresenter.hpp:28:13:virtual void* CompassPresenter::_ZThn4_N16CompassPresenterD1Ev()	1
+CompassPresenter.cpp:4:1:CompassPresenter::CompassPresenter(CompassView&)	1

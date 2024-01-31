@@ -1,0 +1,17 @@
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:86:9:SITRONIX_RegisterBusIO	24	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:128:9:SITRONIX_GetCapabilities	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:149:9:SITRONIX_Init	48	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:182:9:SITRONIX_DeInit	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:199:9:SITRONIX_GestureConfig	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:211:9:SITRONIX_ReadID	56	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:241:9:SITRONIX_GetState	32	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:269:9:SITRONIX_GetMultiTouchState	48	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:294:9:SITRONIX_GetGesture	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:309:9:SITRONIX_EnableIT	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:324:9:SITRONIX_DisableIT	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:341:9:SITRONIX_ITStatus	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:357:9:SITRONIX_ClearIT	16	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:383:16:SITRONIX_DetectTouch	56	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:410:16:ReadRegWrap	40	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:425:16:WriteRegWrap	40	static
+D:/Haish_work/2024/test3/MyApplication/Drivers/BSP/Components/sitronix/sitronix.c:439:16:ReadDataWrap	32	static

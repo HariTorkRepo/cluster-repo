@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/svg_screen/SvgPresenter.hpp:28:13:SvgPresenter::~SvgPresenter()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/svg_screen/SvgPresenter.cpp:10:6:virtual void SvgPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/svg_screen/SvgPresenter.hpp:28:13:virtual SvgPresenter::~SvgPresenter()	8	static
+../../TouchGFX/gui/include/gui/svg_screen/SvgPresenter.hpp:28:13:virtual void* SvgPresenter::_ZThn4_N12SvgPresenterD1Ev()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/svg_screen/SvgPresenter.cpp:4:1:SvgPresenter::SvgPresenter(SvgView&)	8	static

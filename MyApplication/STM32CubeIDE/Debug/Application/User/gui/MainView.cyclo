@@ -1,0 +1,13 @@
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+MainViewBase.hpp:26:18:virtual void MainViewBase::goToWatch()	1
+MainViewBase.hpp:31:18:virtual void MainViewBase::goToCompass()	1
+MainViewBase.hpp:36:18:virtual void MainViewBase::goToThermostat()	1
+MainViewBase.hpp:51:18:virtual void MainViewBase::goToSvg()	1
+MainView.cpp:27:6:virtual void MainView::tearDownScreen()	1
+MainView.cpp:38:6:virtual void MainView::changeScreen(uint8_t)	6
+MainView.cpp:32:6:virtual void MainView::startFlowerAnimation()	1
+MainView.hpp:14:13:MainView::~MainView()	1
+MainView.hpp:14:13:virtual MainView::~MainView()	1
+MainView.cpp:15:1:MainView::MainView()	1
+MainView.cpp:20:6:virtual void MainView::setupScreen()	1

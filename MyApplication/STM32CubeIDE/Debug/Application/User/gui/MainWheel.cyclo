@@ -1,0 +1,36 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = MainWheelIcon]	1
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = MainWheelIcon]	1
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+MainWheelBase.hpp:43:18:virtual void MainWheelBase::emitChangeScreenCallback(uint8_t)	3
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<MainWheelIcon>::~FadeAnimator()	1
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<MainWheelIcon>::~FadeAnimator()	1
+MainWheel.hpp:14:13:MainWheel::~MainWheel()	2
+MainWheel.hpp:14:13:virtual MainWheel::~MainWheel()	1
+Types.hpp:180:10:bool touchgfx::Rect::intersect(int16_t, int16_t) const	4
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+MainWheel.cpp:18:1:MainWheel::MainWheel()	2
+MainWheel.cpp:432:6:void MainWheel::startFlowerAnimation()	1
+MainWheel.cpp:440:6:void MainWheel::updateIconSize(touchgfx::FadeAnimator<MainWheelIcon>*, float)	4
+MainWheel.cpp:227:6:virtual void MainWheel::handleDragEvent(const touchgfx::DragEvent&)	6
+MainWheel.cpp:465:7:float MainWheel::offesetCompensation(float, float)	7
+MainWheel.cpp:270:6:virtual void MainWheel::handleGestureEvent(const touchgfx::GestureEvent&)	10
+MoveAnimator.hpp:131:10:void touchgfx::MoveAnimator<T>::startMoveAnimation(int16_t, int16_t, uint16_t, touchgfx::EasingEquation, touchgfx::EasingEquation) [with T = touchgfx::TextArea]	7
+FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = MainWheelIcon]	8
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = MainWheelIcon]	1
+FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = MainWheelIcon]	3
+MainWheel.cpp:23:6:virtual void MainWheel::initialize()	6
+FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::MoveAnimator<touchgfx::TextArea>]	9
+MainWheel.cpp:86:6:virtual void MainWheel::handleClickEvent(const touchgfx::ClickEvent&)	24
+MainWheel.cpp:339:6:virtual void MainWheel::handleTickEvent()	16

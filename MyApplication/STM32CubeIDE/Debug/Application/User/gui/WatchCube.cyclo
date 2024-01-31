@@ -1,0 +1,28 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+TextArc.hpp:502:18:virtual void touchgfx::StraightLineTextGenerator::getCharacterPosition(int32_t, float&, float&, float&) const	1
+TextArc.hpp:478:7:touchgfx::StraightLineTextGenerator::~StraightLineTextGenerator()	1
+TextArc.hpp:478:7:virtual touchgfx::StraightLineTextGenerator::~StraightLineTextGenerator()	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+WatchCube.cpp:117:6:virtual void WatchCube::handleClickEvent(const touchgfx::ClickEvent&)	9
+Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	1
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+TextArc.hpp:490:10:void touchgfx::StraightLineTextGenerator::setAngle(float)	1
+WatchCube.cpp:9:1:WatchCube::WatchCube()	2
+WatchCube.cpp:412:6:void WatchCube::moveCubeLeftToRight()	10
+WatchCube.cpp:513:6:void WatchCube::moveCubeRightToLeft()	10
+WatchCube.cpp:199:6:virtual void WatchCube::handleGestureEvent(const touchgfx::GestureEvent&)	16
+WatchCube.cpp:612:6:void WatchCube::reorderCube()	11
+WatchCube.cpp:163:6:virtual void WatchCube::handleDragEvent(const touchgfx::DragEvent&)	9
+WatchCube.cpp:324:6:virtual void WatchCube::handleTickEvent()	16
+WatchCube.cpp:645:6:void WatchCube::updateDigitalClock(int, int, int)	3
+WatchCube.cpp:665:6:void WatchCube::startCubeAnimation()	1
+WatchCube.cpp:14:1:WatchCube::~WatchCube()	2
+WatchCube.cpp:14:1:virtual WatchCube::~WatchCube()	1
+WatchCube.cpp:20:6:virtual void WatchCube::initialize()	3

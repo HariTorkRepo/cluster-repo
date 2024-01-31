@@ -1,0 +1,2 @@
+D:/Haish_work/2024/test3/MyApplication/TouchGFX/generated/images/src/SVGDatabase.cpp:3109:27:const touchgfx::VGObject* SVGDatabase::getInstance()	0	static
+D:/Haish_work/2024/test3/MyApplication/TouchGFX/generated/images/src/SVGDatabase.cpp:3114:10:uint16_t SVGDatabase::getInstanceSize()	0	static

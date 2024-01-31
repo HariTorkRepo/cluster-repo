@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/compass_screen/CompassPresenter.hpp:28:13:CompassPresenter::~CompassPresenter()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/compass_screen/CompassPresenter.cpp:10:6:virtual void CompassPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/compass_screen/CompassPresenter.hpp:28:13:virtual CompassPresenter::~CompassPresenter()	8	static
+../../TouchGFX/gui/include/gui/compass_screen/CompassPresenter.hpp:28:13:virtual void* CompassPresenter::_ZThn4_N16CompassPresenterD1Ev()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/compass_screen/CompassPresenter.cpp:4:1:CompassPresenter::CompassPresenter(CompassView&)	8	static

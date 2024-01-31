@@ -1,0 +1,5 @@
+DashboardPresenter.hpp:28:13:DashboardPresenter::~DashboardPresenter()	0	static
+DashboardPresenter.cpp:10:6:virtual void DashboardPresenter::activate()	0	static
+DashboardPresenter.hpp:28:13:virtual DashboardPresenter::~DashboardPresenter()	8	static
+DashboardPresenter.hpp:28:13:virtual void* DashboardPresenter::_ZThn4_N18DashboardPresenterD1Ev()	0	static
+DashboardPresenter.cpp:4:1:DashboardPresenter::DashboardPresenter(DashboardView&)	8	static

@@ -1,0 +1,17 @@
+sitronix.c:86:9:SITRONIX_RegisterBusIO	3
+sitronix.c:128:9:SITRONIX_GetCapabilities	1
+sitronix.c:149:9:SITRONIX_Init	4
+sitronix.c:182:9:SITRONIX_DeInit	2
+sitronix.c:199:9:SITRONIX_GestureConfig	1
+sitronix.c:211:9:SITRONIX_ReadID	4
+sitronix.c:241:9:SITRONIX_GetState	2
+sitronix.c:269:9:SITRONIX_GetMultiTouchState	2
+sitronix.c:294:9:SITRONIX_GetGesture	1
+sitronix.c:309:9:SITRONIX_EnableIT	1
+sitronix.c:324:9:SITRONIX_DisableIT	1
+sitronix.c:341:9:SITRONIX_ITStatus	1
+sitronix.c:357:9:SITRONIX_ClearIT	1
+sitronix.c:383:16:SITRONIX_DetectTouch	2
+sitronix.c:410:16:ReadRegWrap	1
+sitronix.c:425:16:WriteRegWrap	1
+sitronix.c:439:16:ReadDataWrap	1

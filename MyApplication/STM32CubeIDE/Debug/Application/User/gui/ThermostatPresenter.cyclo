@@ -1,0 +1,5 @@
+ThermostatPresenter.hpp:28:13:ThermostatPresenter::~ThermostatPresenter()	1
+ThermostatPresenter.cpp:10:6:virtual void ThermostatPresenter::activate()	1
+ThermostatPresenter.hpp:28:13:virtual ThermostatPresenter::~ThermostatPresenter()	1
+ThermostatPresenter.hpp:28:13:virtual void* ThermostatPresenter::_ZThn4_N19ThermostatPresenterD1Ev()	1
+ThermostatPresenter.cpp:4:1:ThermostatPresenter::ThermostatPresenter(ThermostatView&)	1

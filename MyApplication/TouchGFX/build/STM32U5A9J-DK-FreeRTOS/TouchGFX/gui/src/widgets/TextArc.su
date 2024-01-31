@@ -1,0 +1,36 @@
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
+TextArc.hpp:115:18:virtual void touchgfx::TextArc::setRenderingAlgorithm(touchgfx::TextArc::RenderingAlgorithm)	0	static
+TextArc.hpp:129:32:virtual touchgfx::TextArc::RenderingAlgorithm touchgfx::TextArc::getRenderingAlgorithm() const	0	static
+TextArc.hpp:174:18:virtual void touchgfx::TextArc::setCamera(float, float)	0	static
+TextArc.hpp:189:19:virtual float touchgfx::TextArc::getCameraX() const	0	static
+TextArc.hpp:203:19:virtual float touchgfx::TextArc::getCameraY() const	0	static
+TextArc.hpp:218:18:virtual void touchgfx::TextArc::setCameraDistance(float)	0	static
+TextArc.hpp:232:19:virtual float touchgfx::TextArc::getCameraDistance() const	0	static
+TextArc.cpp:29:1:touchgfx::TextArc::~TextArc()	0	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
+TextArc.cpp:29:1:virtual touchgfx::TextArc::~TextArc()	8	static
+TextArc.cpp:399:6:virtual touchgfx::Rect touchgfx::TextArc::getSolidRect() const	0	static
+TextArc.cpp:216:6:virtual void touchgfx::TextArc::draw(const touchgfx::Rect&) const	16	static
+HAL.hpp:268:17:static touchgfx::LCD& touchgfx::HAL::lcd()	0	static
+TextArc.cpp:11:1:touchgfx::TextArc::TextArc()	8	static
+TextArc.cpp:33:6:void touchgfx::TextArc::applyCharacterTransformation(const touchgfx::TextArc::BitmapTransformation&, touchgfx::TextArc::BitmapCorners&) const	808	static
+TextArc.cpp:305:6:void touchgfx::TextArc::drawTriangle(const touchgfx::Rect&, uint16_t*, const uint8_t*, int32_t, int32_t, const float*, const float*, const float*, const float*, const float*) const	216	static
+TextArc.cpp:96:6:void touchgfx::TextArc::drawOneCharacter(const touchgfx::Rect&, uint16_t*, const touchgfx::TextArc::BitmapCorners&, const uint8_t*, uint32_t, uint32_t) const	152	static
+TextArc.cpp:225:6:) const	288	static
+TextArc.cpp:348:18:touchgfx::RenderingVariant touchgfx::TextArc::lookupRenderVariant() const	0	static
+TextArc.cpp:366:10:) const	156	static
+TextArc.cpp:361:10:uint32_t touchgfx::TextArc::getTextPixelLength() const	0	static

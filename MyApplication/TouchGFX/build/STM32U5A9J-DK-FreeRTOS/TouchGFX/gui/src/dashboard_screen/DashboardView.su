@@ -1,0 +1,32 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+DashboardViewBase.hpp:35:18:virtual void DashboardViewBase::goToMain()	0	static
+DashboardView.hpp:83:7:DashboardView::~DashboardView()	8	static
+DashboardView.hpp:83:7:virtual DashboardView::~DashboardView()	8	static
+TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	16	static
+DashboardView.cpp:63:6:void DashboardView::clamp(float&, float, float)	0	static
+DashboardView.cpp:668:6:virtual void DashboardView::handleDragEvent(const touchgfx::DragEvent&)	32	static
+DashboardView.cpp:442:7:float sineEaseInOutf(float)	8	static
+DashboardView.cpp:447:8:double interpolate(double, double, double)	24	static
+DashboardView.cpp:457:7:float easeInOutSine(float)	8	static
+DashboardView.cpp:461:7:float easeInQuart(float)	0	static
+DashboardView.cpp:465:7:float easeInOutQuint(float)	8	static
+DashboardView.cpp:469:7:float easeOutSine(float)	0	static
+DashboardView.cpp:473:7:float easeInOutBack(float)	32	static
+DashboardView.cpp:484:7:float easeOutQuart(float)	8	static
+DashboardView.cpp:735:6:bool Battery::update(float)	0	static
+DashboardView.cpp:769:7:float Speedometer::computeVelocity(float) const	8	static
+DashboardView.cpp:776:6:bool Speedometer::update(float)	8	static
+DashboardView.cpp:792:7:float Units::metersToFeet(float)	0	static
+DashboardView.cpp:798:7:float Units::kmhToMph(float)	0	static
+DashboardView.cpp:805:6:bool ElevationSimulation::update(float)	24	static
+DashboardView.cpp:113:7:void DashboardView::updateBatteryUserDefine()	32	static
+DashboardView.cpp:296:6:void DashboardView::updateBattery()	32	static
+DashboardView.cpp:321:6:void DashboardView::updateElevation()	32	static
+DashboardView.cpp:490:6:void DashboardView::updateSpeedometer(float)	56	static
+DashboardView.cpp:352:6:void DashboardView::update()	8	static
+DashboardView.cpp:75:6:virtual void DashboardView::setupScreen()	24	static
+DashboardView.cpp:661:6:virtual void DashboardView::handleTickEvent()	8	static
+DashboardView.cpp:711:6:virtual void DashboardView::selectKmh()	0	static
+DashboardView.cpp:724:6:virtual void DashboardView::selectMiles()	4	static

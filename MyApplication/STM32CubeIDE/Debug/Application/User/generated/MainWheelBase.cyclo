@@ -1,0 +1,87 @@
+Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	1
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+TextureMapper.hpp:91:18:virtual void touchgfx::TextureMapper::setRenderingAlgorithm(touchgfx::TextureMapper::RenderingAlgorithm)	1
+TextureMapper.hpp:101:32:virtual touchgfx::TextureMapper::RenderingAlgorithm touchgfx::TextureMapper::getRenderingAlgorithm() const	1
+TextureMapper.hpp:130:18:virtual void touchgfx::TextureMapper::setXAngle(float)	1
+TextureMapper.hpp:145:18:virtual void touchgfx::TextureMapper::setYAngle(float)	1
+TextureMapper.hpp:160:18:virtual void touchgfx::TextureMapper::setZAngle(float)	1
+TextureMapper.hpp:188:18:virtual void touchgfx::TextureMapper::updateXAngle(float)	1
+TextureMapper.hpp:202:18:virtual void touchgfx::TextureMapper::updateYAngle(float)	1
+TextureMapper.hpp:216:18:virtual void touchgfx::TextureMapper::updateZAngle(float)	1
+TextureMapper.hpp:230:19:virtual float touchgfx::TextureMapper::getXAngle() const	1
+TextureMapper.hpp:244:19:virtual float touchgfx::TextureMapper::getYAngle() const	1
+TextureMapper.hpp:258:19:virtual float touchgfx::TextureMapper::getZAngle() const	1
+TextureMapper.hpp:289:19:virtual float touchgfx::TextureMapper::getScale() const	1
+TextureMapper.hpp:334:19:virtual float touchgfx::TextureMapper::getOrigoX() const	1
+TextureMapper.hpp:346:19:virtual float touchgfx::TextureMapper::getOrigoY() const	1
+TextureMapper.hpp:358:19:virtual float touchgfx::TextureMapper::getOrigoZ() const	1
+TextureMapper.hpp:385:19:virtual float touchgfx::TextureMapper::getCameraX() const	1
+TextureMapper.hpp:397:19:virtual float touchgfx::TextureMapper::getCameraY() const	1
+TextureMapper.hpp:424:19:virtual float touchgfx::TextureMapper::getCameraDistance() const	1
+TextureMapper.hpp:454:18:virtual void touchgfx::TextureMapper::setBitmapPosition(int, int)	1
+TextureMapper.hpp:466:19:virtual float touchgfx::TextureMapper::getBitmapPositionX() const	1
+TextureMapper.hpp:478:19:virtual float touchgfx::TextureMapper::getBitmapPositionY() const	1
+TextureMapper.hpp:488:19:virtual float touchgfx::TextureMapper::getX0() const	1
+TextureMapper.hpp:498:19:virtual float touchgfx::TextureMapper::getX1() const	1
+TextureMapper.hpp:508:19:virtual float touchgfx::TextureMapper::getX2() const	1
+TextureMapper.hpp:518:19:virtual float touchgfx::TextureMapper::getX3() const	1
+TextureMapper.hpp:528:19:virtual float touchgfx::TextureMapper::getY0() const	1
+TextureMapper.hpp:538:19:virtual float touchgfx::TextureMapper::getY1() const	1
+TextureMapper.hpp:548:19:virtual float touchgfx::TextureMapper::getY2() const	1
+TextureMapper.hpp:558:19:virtual float touchgfx::TextureMapper::getY3() const	1
+TextureMapper.hpp:568:19:virtual float touchgfx::TextureMapper::getZ0() const	1
+TextureMapper.hpp:578:19:virtual float touchgfx::TextureMapper::getZ1() const	1
+TextureMapper.hpp:588:19:virtual float touchgfx::TextureMapper::getZ2() const	1
+TextureMapper.hpp:598:19:virtual float touchgfx::TextureMapper::getZ3() const	1
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+TextArea.hpp:48:18:virtual void touchgfx::TextArea::setWidth(int16_t)	1
+TextArea.hpp:54:18:virtual void touchgfx::TextArea::setHeight(int16_t)	1
+TextArea.hpp:60:18:virtual touchgfx::Rect touchgfx::TextArea::getSolidRect() const	1
+TextArea.hpp:89:18:virtual void touchgfx::TextArea::setAlpha(uint8_t)	1
+TextArea.hpp:127:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	1
+TextArea.hpp:391:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard1() const	1
+TextArea.hpp:403:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard2() const	1
+MainWheelBase.cpp:35:1:MainWheelBase::~MainWheelBase()	1
+MainWheelBase.cpp:40:6:virtual void MainWheelBase::initialize()	1
+MainWheelBase.cpp:45:6:virtual void MainWheelBase::subDemoSelected(uint8_t)	1
+MoveAnimator.hpp:37:7:touchgfx::MoveAnimator<touchgfx::TextArea>::~MoveAnimator()	1
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::MoveAnimator<touchgfx::TextArea> >::~FadeAnimator()	1
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::AnimationTextureMapper>::~FadeAnimator()	1
+MoveAnimator.hpp:88:18:void touchgfx::MoveAnimator<T>::setMoveAnimationDelay(uint16_t) [with T = touchgfx::TextArea]	1
+MoveAnimator.hpp:100:22:uint16_t touchgfx::MoveAnimator<T>::getMoveAnimationDelay() const [with T = touchgfx::TextArea]	1
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::MoveAnimator<touchgfx::TextArea>]	1
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::MoveAnimator<touchgfx::TextArea>]	1
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::AnimationTextureMapper]	1
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::AnimationTextureMapper]	1
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::AnimationTextureMapper>::~FadeAnimator()	1
+MoveAnimator.hpp:37:7:virtual touchgfx::MoveAnimator<touchgfx::TextArea>::~MoveAnimator()	1
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::MoveAnimator<touchgfx::TextArea> >::~FadeAnimator()	1
+MainWheelBase.cpp:35:1:virtual MainWheelBase::~MainWheelBase()	1
+TextureMapper.hpp:320:18:virtual void touchgfx::TextureMapper::setOrigo(float, float)	1
+TextureMapper.hpp:438:18:virtual void touchgfx::TextureMapper::setBitmapPosition(float, float)	1
+TextureMapper.hpp:411:18:virtual void touchgfx::TextureMapper::setCameraDistance(float)	1
+TextureMapper.hpp:303:18:virtual void touchgfx::TextureMapper::setOrigo(float, float, float)	1
+TextureMapper.hpp:371:18:virtual void touchgfx::TextureMapper::setCamera(float, float)	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+MainWheelBase.hpp:43:18:virtual void MainWheelBase::emitChangeScreenCallback(uint8_t)	3
+TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	2
+TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	1
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::AnimationTextureMapper]	8
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+MainWheelBase.cpp:9:1:MainWheelBase::MainWheelBase()	1
+MoveAnimator.hpp:177:10:void touchgfx::MoveAnimator<T>::nextMoveAnimationStep() [with T = touchgfx::TextArea]	6
+MoveAnimator.hpp:169:18:void touchgfx::MoveAnimator<T>::handleTickEvent() [with T = touchgfx::TextArea]	1
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::MoveAnimator<touchgfx::TextArea>]	8

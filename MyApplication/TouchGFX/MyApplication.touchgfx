@@ -1,0 +1,971 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Dashboard",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background_mi",
+            "X": -3,
+            "Width": 480,
+            "Height": 480,
+            "RelativeFilename": "dashboard\\main_background_numbers_mph.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "totalDistance_1",
+            "X": 182,
+            "Y": 277,
+            "Width": 120,
+            "Height": 26,
+            "TextId": "__SingleUse_ZLM3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 210,
+              "Green": 243,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_EKTD",
+              "UseBuffer": true,
+              "BufferSize": 11
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "totalDistanceMi_1",
+            "X": 224,
+            "Y": 251,
+            "Width": 29,
+            "Height": 26,
+            "TextId": "__SingleUse_YVY5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 125,
+              "Green": 142,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "background_kmh",
+            "X": -1,
+            "Width": 480,
+            "Height": 480,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\main_background_numbers_kmh.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "graph",
+            "X": 36,
+            "Y": 353,
+            "Width": 410,
+            "Height": 66,
+            "DataSeed": -205127896,
+            "NumberOfValues": 205,
+            "MaxY": 255.0,
+            "Precision": "1",
+            "LastIndex": 204,
+            "XAxisScale": 1.0,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 25,
+                  "Green": 255,
+                  "Blue": 198
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "currentVelocity",
+            "X": 188,
+            "Y": 173,
+            "Width": 103,
+            "Height": 76,
+            "TextId": "__SingleUse_NANU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 210,
+              "Green": 243,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_B6UT",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "totalDistance",
+            "X": 205,
+            "Y": 329,
+            "Width": 70,
+            "Height": 30,
+            "TextId": "__SingleUse_DHPQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 210,
+              "Green": 243,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_XB5M",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "remaining",
+            "X": 52,
+            "Y": 323,
+            "Width": 70,
+            "Height": 30,
+            "TextId": "__SingleUse_QB8T",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 210,
+              "Green": 243,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_49Q7",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "remainingLabel",
+            "X": 52,
+            "Y": 297,
+            "Width": 26,
+            "Height": 26,
+            "TextId": "__SingleUse_1KU2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 125,
+              "Green": 142,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "elevationLabel",
+            "X": 212,
+            "Y": 367,
+            "Width": 75,
+            "Height": 23,
+            "TextId": "__SingleUse_53CM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 210,
+              "Green": 243,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_52Q4",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "Circle",
+            "Name": "highlightMph",
+            "Width": 480,
+            "Height": 480,
+            "LockPosition": true,
+            "FileNameImage": "dashboard\\speedometer_fill_overlay_numbers_mph.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 240.0,
+            "Radius": 186.0,
+            "LineWidth": 108.0,
+            "StartAngle": -90.0,
+            "EndAngle": -57.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "highlightKmh",
+            "Width": 480,
+            "Height": 480,
+            "Visible": false,
+            "LockPosition": true,
+            "FileNameImage": "dashboard\\speedometer_fill_overlay_numbers_kmh.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 240.0,
+            "Radius": 186.0,
+            "LineWidth": 108.0,
+            "StartAngle": -90.0,
+            "EndAngle": -57.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "needle",
+            "Width": 480,
+            "Height": 240,
+            "RenderingAlgorithm": "Bilinear Interpolation",
+            "FileNameImage": "dashboard\\speedometer_needle.png",
+            "XBitmapPosition": 213.8,
+            "ZAngle": -1.0,
+            "Scale": 1.0,
+            "XOrigo": 240.0,
+            "YOrigo": 240.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0
+          },
+          {
+            "Type": "Button",
+            "Name": "velocityMiles",
+            "X": 201,
+            "Y": 139,
+            "Width": 78,
+            "Height": 44,
+            "LockPosition": true,
+            "Pressed": "dashboard\\button_kmh_normal.png",
+            "Released": "dashboard\\button_kmh_pressed.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "velocityKmh",
+            "X": 201,
+            "Y": 139,
+            "Width": 78,
+            "Height": 44,
+            "LockPosition": true,
+            "Pressed": "dashboard\\button_kmh_pressed.png",
+            "Released": "dashboard\\button_kmh_normal.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "totalDistanceKm",
+            "X": 213,
+            "Y": 303,
+            "Width": 66,
+            "Height": 26,
+            "Visible": false,
+            "TextId": "__SingleUse_CKZ2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 125,
+              "Green": 142,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "totalDistanceMi",
+            "X": 217,
+            "Y": 303,
+            "Width": 47,
+            "Height": 26,
+            "TextId": "__SingleUse_JP0H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 125,
+              "Green": 142,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "battery6",
+            "X": 31,
+            "Y": 263,
+            "Width": 68,
+            "Height": 28,
+            "RelativeFilename": "dashboard\\battery_steps_full.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "battery5",
+            "X": 31,
+            "Y": 263,
+            "Width": 68,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\battery_steps_5of6.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "battery4",
+            "X": 31,
+            "Y": 263,
+            "Width": 68,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\battery_steps_4of6.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "battery3",
+            "X": 31,
+            "Y": 264,
+            "Width": 68,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\battery_steps_3of6.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "battery2",
+            "X": 31,
+            "Y": 263,
+            "Width": 68,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\battery_steps_2of6.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "battery1",
+            "X": 31,
+            "Y": 263,
+            "Width": 68,
+            "Height": 28,
+            "Visible": false,
+            "RelativeFilename": "dashboard\\battery_steps_low.png"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "modeOff",
+            "X": 302,
+            "Y": 334,
+            "Width": 158,
+            "Height": 32,
+            "FileNameSelected": "dashboard\\mode_off_active.png",
+            "FileNameSelectedPressed": "dashboard\\mode_off_active.png",
+            "FileNameUnselected": "dashboard\\mode_off_inactive.png",
+            "FileNameUnselectedPressed": "dashboard\\mode_off_active.png",
+            "RadioButtonGroup": "modeGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "modeStandard",
+            "X": 319,
+            "Y": 303,
+            "Width": 152,
+            "Height": 31,
+            "FileNameSelected": "dashboard\\mode_standard_active.png",
+            "FileNameSelectedPressed": "dashboard\\mode_standard_active.png",
+            "FileNameUnselected": "dashboard\\mode_standard_inactive.png",
+            "FileNameUnselectedPressed": "dashboard\\mode_standard_active.png",
+            "RadioButtonGroup": "modeGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "modeSport",
+            "X": 345,
+            "Y": 272,
+            "Width": 132,
+            "Height": 31,
+            "Selected": true,
+            "FileNameSelected": "dashboard\\mode_sport_active.png",
+            "FileNameSelectedPressed": "dashboard\\mode_sport_active.png",
+            "FileNameUnselected": "dashboard\\mode_sport_inactive.png",
+            "FileNameUnselectedPressed": "dashboard\\mode_sport_active.png",
+            "RadioButtonGroup": "modeGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "modeMax",
+            "X": 358,
+            "Y": 240,
+            "Width": 121,
+            "Height": 32,
+            "FileNameSelected": "dashboard\\mode_max_active.png",
+            "FileNameSelectedPressed": "dashboard\\mode_max_active.png",
+            "FileNameUnselected": "dashboard\\mode_max_inactive.png",
+            "FileNameUnselectedPressed": "dashboard\\mode_max_active.png",
+            "RadioButtonGroup": "modeGroup"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "high_beam",
+            "X": 225,
+            "Y": 59,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "high_beam.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "aux_L",
+            "X": 78,
+            "Y": 107,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "aux_low.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "indi_left",
+            "X": 36,
+            "Y": 195,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "indi_left.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "indi_right",
+            "X": 402,
+            "Y": 195,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "indi_right.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "fault",
+            "X": 232,
+            "Y": 426,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "fault.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "side_stand",
+            "X": 358,
+            "Y": 107,
+            "Width": 32,
+            "Height": 33,
+            "Filename": "side_stand.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "tork_logo",
+            "X": 137,
+            "Y": 161,
+            "Width": 208,
+            "Height": 173,
+            "Filename": "tork_logo_bg_ab.png",
+            "Alpha": 59,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "selectMiles",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "velocityKmh"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectMiles"
+            }
+          },
+          {
+            "InteractionName": "selectKmh",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "velocityMiles"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectKmh"
+            }
+          },
+          {
+            "InteractionName": "hideKmhButton",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "velocityKmh"
+            }
+          },
+          {
+            "InteractionName": "showMilesButton",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "velocityMiles"
+            }
+          },
+          {
+            "InteractionName": "hideMilesButton",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "velocityMiles"
+            }
+          },
+          {
+            "InteractionName": "showKmhButton",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "velocityKmh"
+            }
+          },
+          {
+            "InteractionName": "showTotalDistanceMiles",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "totalDistanceMi"
+            }
+          },
+          {
+            "InteractionName": "hideTotalDistanceKm",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "totalDistanceKm"
+            }
+          },
+          {
+            "InteractionName": "showTotalDistanceKm",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "totalDistanceKm"
+            }
+          },
+          {
+            "InteractionName": "hideTotalDistanceMi",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "totalDistanceMi"
+            }
+          },
+          {
+            "InteractionName": "showBackgroundKmh",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "background_kmh"
+            }
+          },
+          {
+            "InteractionName": "hideBackGroundMi",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "background_mi"
+            }
+          },
+          {
+            "InteractionName": "showBackgroundMi",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "background_mi"
+            }
+          },
+          {
+            "InteractionName": "hideBackgroundKm",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "background_kmh"
+            }
+          },
+          {
+            "InteractionName": "hideHighlightKmh",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "highlightKmh"
+            }
+          },
+          {
+            "InteractionName": "showHighlightMph",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectMiles"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "highlightMph"
+            }
+          },
+          {
+            "InteractionName": "showHighlightKmh",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "highlightKmh"
+            }
+          },
+          {
+            "InteractionName": "hideHighlightMph",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "selectKmh"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "highlightMph"
+            }
+          },
+          {
+            "InteractionName": "ChangeScreenToMain",
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Dashboard"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToMain"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MainWheelIcon",
+        "Width": 92,
+        "Height": 92,
+        "Components": [
+          {
+            "Type": "TextureMapper",
+            "Name": "subDemoIcon",
+            "Width": 92,
+            "Height": 92,
+            "RenderingAlgorithm": "Bilinear Interpolation",
+            "FileNameImage": "Main\\compass_icon_48.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": 6.0,
+            "YBitmapPosition": 6.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 46.0,
+            "YOrigo": 46.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MainWheel",
+        "Width": 480,
+        "Height": 480,
+        "Components": [
+          {
+            "Type": "TextureMapper",
+            "Name": "flower",
+            "X": 335,
+            "Y": 130,
+            "Width": 145,
+            "Height": 220,
+            "UseAnimation": true,
+            "RenderingAlgorithm": "Bilinear Interpolation",
+            "FileNameImage": "Main\\lotus_blue_animation\\flower_blue0000.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": 1.5,
+            "XOrigo": 145.0,
+            "YOrigo": 110.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "selectedDemoName",
+            "X": 136,
+            "Y": 218,
+            "Width": 202,
+            "Height": 51,
+            "TextId": "MainSelectedSubDemoEBike",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 226,
+              "Green": 246,
+              "Blue": 255
+            },
+            "Alpha": 0,
+            "Fadeable": true,
+            "Moveable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SubeDemoSelected",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call MainWheel subDemoSelected"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "MainWheel changeScreen happens",
+              "ParameterValue": "value"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "changeScreen",
+            "HasValue": true,
+            "ValueType": "uint8_t"
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "subDemoSelected",
+            "HasValue": true,
+            "ValueType": "uint8_t"
+          }
+        ]
+      },
+      {
+        "Name": "WatchCube",
+        "Width": 480,
+        "Height": 480,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "cubeShadow",
+            "X": 66,
+            "Y": 210,
+            "Width": 348,
+            "Height": 224,
+            "Visible": false,
+            "RelativeFilename": "Watch\\cube_shadow.png",
+            "Alpha": 0,
+            "Fadeable": true
+          },
+          {
+            "Type": "Container",
+            "Name": "digitalClockContainer",
+            "Y": 480,
+            "Width": 200,
+            "Height": 200,
+            "IsCacheableContainer": true,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "clockReverse",
+                "Width": 200,
+                "Height": 200,
+                "Visible": false,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "clockBackgroundReverse",
+                    "Width": 200,
+                    "Height": 200,
+                    "RelativeFilename": "Watch\\background_texture_reverse.png"
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "dotsReverse",
+                    "X": 86,
+                    "Y": 86,
+                    "Width": 26,
+                    "Height": 26,
+                    "RelativeFilename": "Watch\\time_dots.png"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "clock",
+                "Width": 200,
+                "Height": 200,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "clockBackground",
+                    "Width": 200,
+                    "Height": 200,
+                    "RelativeFilename": "Watch\\background_texture.png"
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "dots",
+                    "X": 86,
+                    "Y": 86,
+                    "Width": 26,
+                    "Height": 26,
+                    "RelativeFilename": "Watch\\time_dots_reverse.png"
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textAreaHour",
+                "Width": 200,
+                "Height": 200,
+                "Visible": false,
+                "TextId": "WatchDigitalClockHour",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 62,
+                  "Green": 44,
+                  "Blue": 111
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_5AWG",
+                  "UseBuffer": true,
+                  "BufferSize": 3
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textAreaSeconds",
+                "Width": 200,
+                "Height": 200,
+                "Visible": false,
+                "TextId": "WatchDigitalClockSecond",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 62,
+                  "Green": 44,
+                  "Blue": 111
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_WX1V",
+                  "UseBuffer": true,
+                  "BufferSize": 3
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Dashboard",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U599/5A9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../STM32U5A9J-DK-FreeRTOS.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.3",
+  "CreatedBy": "4.21.3"
+}

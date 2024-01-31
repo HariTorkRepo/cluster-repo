@@ -1,0 +1,32 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+DashboardViewBase.hpp:35:18:virtual void DashboardViewBase::goToMain()	1
+DashboardView.hpp:83:7:DashboardView::~DashboardView()	1
+DashboardView.hpp:83:7:virtual DashboardView::~DashboardView()	1
+TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	2
+DashboardView.cpp:63:6:void DashboardView::clamp(float&, float, float)	3
+DashboardView.cpp:669:6:virtual void DashboardView::handleDragEvent(const touchgfx::DragEvent&)	4
+DashboardView.cpp:442:7:float sineEaseInOutf(float)	1
+DashboardView.cpp:447:8:double interpolate(double, double, double)	1
+DashboardView.cpp:457:7:float easeInOutSine(float)	1
+DashboardView.cpp:461:7:float easeInQuart(float)	1
+DashboardView.cpp:465:7:float easeInOutQuint(float)	2
+DashboardView.cpp:469:7:float easeOutSine(float)	1
+DashboardView.cpp:473:7:float easeInOutBack(float)	2
+DashboardView.cpp:484:7:float easeOutQuart(float)	1
+DashboardView.cpp:736:6:bool Battery::update(float)	4
+DashboardView.cpp:770:7:float Speedometer::computeVelocity(float) const	1
+DashboardView.cpp:777:6:bool Speedometer::update(float)	1
+DashboardView.cpp:793:7:float Units::metersToFeet(float)	1
+DashboardView.cpp:799:7:float Units::kmhToMph(float)	1
+DashboardView.cpp:806:6:bool ElevationSimulation::update(float)	2
+DashboardView.cpp:113:7:void DashboardView::updateBatteryUserDefine()	7
+DashboardView.cpp:296:6:void DashboardView::updateBattery()	3
+DashboardView.cpp:321:6:void DashboardView::updateElevation()	3
+DashboardView.cpp:490:6:void DashboardView::updateSpeedometer(float)	15
+DashboardView.cpp:352:6:void DashboardView::update()	4
+DashboardView.cpp:75:6:virtual void DashboardView::setupScreen()	4
+DashboardView.cpp:662:6:virtual void DashboardView::handleTickEvent()	1
+DashboardView.cpp:712:6:virtual void DashboardView::selectKmh()	1
+DashboardView.cpp:725:6:virtual void DashboardView::selectMiles()	1

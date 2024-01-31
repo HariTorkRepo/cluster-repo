@@ -1,0 +1,13 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:26:18:virtual void MainViewBase::goToWatch()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:31:18:virtual void MainViewBase::goToCompass()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:36:18:virtual void MainViewBase::goToThermostat()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:51:18:virtual void MainViewBase::goToSvg()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/main_screen/MainView.cpp:27:6:virtual void MainView::tearDownScreen()	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/main_screen/MainView.cpp:38:6:virtual void MainView::changeScreen(uint8_t)	0	static
+C:/test3/MyApplication/TouchGFX/gui/src/main_screen/MainView.cpp:32:6:virtual void MainView::startFlowerAnimation()	0	static
+../../TouchGFX/gui/include/gui/main_screen/MainView.hpp:14:13:MainView::~MainView()	8	static
+../../TouchGFX/gui/include/gui/main_screen/MainView.hpp:14:13:virtual MainView::~MainView()	8	static
+C:/test3/MyApplication/TouchGFX/gui/src/main_screen/MainView.cpp:15:1:MainView::MainView()	8	static
+C:/test3/MyApplication/TouchGFX/gui/src/main_screen/MainView.cpp:20:6:virtual void MainView::setupScreen()	8	static

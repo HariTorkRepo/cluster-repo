@@ -1,0 +1,9 @@
+3.0.0
+First released version
+- TouchGFX 4.21.3
+- STM32CubeMX 6.8.0
+- firmware FW U5 1.2.0
+- X-CUBE-FREERTOS 1.0.0
+- support for STM32CubeIDE
+- support for EWARM
+- support "Run target" in TouchGFX Designer

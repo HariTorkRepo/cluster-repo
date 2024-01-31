@@ -1,0 +1,86 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:91:18:virtual void touchgfx::TextureMapper::setRenderingAlgorithm(touchgfx::TextureMapper::RenderingAlgorithm)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:101:32:virtual touchgfx::TextureMapper::RenderingAlgorithm touchgfx::TextureMapper::getRenderingAlgorithm() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:130:18:virtual void touchgfx::TextureMapper::setXAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:145:18:virtual void touchgfx::TextureMapper::setYAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:160:18:virtual void touchgfx::TextureMapper::setZAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:188:18:virtual void touchgfx::TextureMapper::updateXAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:202:18:virtual void touchgfx::TextureMapper::updateYAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:216:18:virtual void touchgfx::TextureMapper::updateZAngle(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:230:19:virtual float touchgfx::TextureMapper::getXAngle() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:244:19:virtual float touchgfx::TextureMapper::getYAngle() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:258:19:virtual float touchgfx::TextureMapper::getZAngle() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:289:19:virtual float touchgfx::TextureMapper::getScale() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:334:19:virtual float touchgfx::TextureMapper::getOrigoX() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:346:19:virtual float touchgfx::TextureMapper::getOrigoY() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:358:19:virtual float touchgfx::TextureMapper::getOrigoZ() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:385:19:virtual float touchgfx::TextureMapper::getCameraX() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:397:19:virtual float touchgfx::TextureMapper::getCameraY() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:424:19:virtual float touchgfx::TextureMapper::getCameraDistance() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:454:18:virtual void touchgfx::TextureMapper::setBitmapPosition(int, int)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:466:19:virtual float touchgfx::TextureMapper::getBitmapPositionX() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:478:19:virtual float touchgfx::TextureMapper::getBitmapPositionY() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:488:19:virtual float touchgfx::TextureMapper::getX0() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:498:19:virtual float touchgfx::TextureMapper::getX1() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:508:19:virtual float touchgfx::TextureMapper::getX2() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:518:19:virtual float touchgfx::TextureMapper::getX3() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:528:19:virtual float touchgfx::TextureMapper::getY0() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:538:19:virtual float touchgfx::TextureMapper::getY1() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:548:19:virtual float touchgfx::TextureMapper::getY2() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:558:19:virtual float touchgfx::TextureMapper::getY3() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:568:19:virtual float touchgfx::TextureMapper::getZ0() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:578:19:virtual float touchgfx::TextureMapper::getZ1() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:588:19:virtual float touchgfx::TextureMapper::getZ2() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:598:19:virtual float touchgfx::TextureMapper::getZ3() const	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/intro_screen/IntroViewBase.hpp:28:18:virtual void IntroViewBase::goToMain()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/intro_screen/IntroViewBase.hpp:38:18:virtual void IntroViewBase::screenIsEntered()	0	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<IntroPresenter>::~View()	0	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:110:1:IntroViewBase::~IntroViewBase()	0	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:115:6:virtual void IntroViewBase::setupScreen()	0	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:138:6:virtual void IntroViewBase::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<IntroViewBase, const touchgfx::MoveAnimator<touchgfx::TextureMapper>&>::~Callback()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::TextureMapper>::~FadeAnimator()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:37:7:touchgfx::MoveAnimator<touchgfx::TextureMapper>::~MoveAnimator()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = IntroViewBase; T1 = const touchgfx::MoveAnimator<touchgfx::TextureMapper>&]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = IntroViewBase; T1 = const touchgfx::MoveAnimator<touchgfx::TextureMapper>&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::TextureMapper]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::TextureMapper]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:88:18:void touchgfx::MoveAnimator<T>::setMoveAnimationDelay(uint16_t) [with T = touchgfx::TextureMapper]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:100:22:uint16_t touchgfx::MoveAnimator<T>::getMoveAnimationDelay() const [with T = touchgfx::TextureMapper]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:37:7:virtual touchgfx::MoveAnimator<touchgfx::TextureMapper>::~MoveAnimator()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::TextureMapper>::~FadeAnimator()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<IntroViewBase, const touchgfx::MoveAnimator<touchgfx::TextureMapper>&>::~Callback()	8	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<IntroPresenter>::~View()	8	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:110:1:virtual IntroViewBase::~IntroViewBase()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:320:18:virtual void touchgfx::TextureMapper::setOrigo(float, float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:438:18:virtual void touchgfx::TextureMapper::setBitmapPosition(float, float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:411:18:virtual void touchgfx::TextureMapper::setCameraDistance(float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:303:18:virtual void touchgfx::TextureMapper::setOrigo(float, float, float)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:371:18:virtual void touchgfx::TextureMapper::setCamera(float, float)	0	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:120:6:void IntroViewBase::moveDotAnimationEndedCallbackHandler(const touchgfx::MoveAnimator<touchgfx::TextureMapper>&)	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::TextureMapper]	16	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:128:6:virtual void IntroViewBase::moveDot()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	8	static
+C:/test3/MyApplication/TouchGFX/generated/gui_generated/src/intro_screen/IntroViewBase.cpp:8:1:IntroViewBase::IntroViewBase()	88	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:177:10:void touchgfx::MoveAnimator<T>::nextMoveAnimationStep() [with T = touchgfx::TextureMapper]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:169:18:void touchgfx::MoveAnimator<T>::handleTickEvent() [with T = touchgfx::TextureMapper]	8	static

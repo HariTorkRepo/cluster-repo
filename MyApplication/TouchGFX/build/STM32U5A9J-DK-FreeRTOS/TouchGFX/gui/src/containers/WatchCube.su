@@ -1,0 +1,28 @@
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+TextArc.hpp:502:18:virtual void touchgfx::StraightLineTextGenerator::getCharacterPosition(int32_t, float&, float&, float&) const	0	static
+TextArc.hpp:478:7:touchgfx::StraightLineTextGenerator::~StraightLineTextGenerator()	0	static
+TextArc.hpp:478:7:virtual touchgfx::StraightLineTextGenerator::~StraightLineTextGenerator()	8	static
+WatchCube.cpp:117:6:virtual void WatchCube::handleClickEvent(const touchgfx::ClickEvent&)	48	static
+Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
+TextArc.hpp:490:10:void touchgfx::StraightLineTextGenerator::setAngle(float)	16	static
+WatchCube.cpp:9:1:WatchCube::WatchCube()	32	static
+WatchCube.cpp:412:6:void WatchCube::moveCubeLeftToRight()	64	static
+WatchCube.cpp:513:6:void WatchCube::moveCubeRightToLeft()	64	static
+WatchCube.cpp:199:6:virtual void WatchCube::handleGestureEvent(const touchgfx::GestureEvent&)	32	static
+WatchCube.cpp:612:6:void WatchCube::reorderCube()	64	static
+WatchCube.cpp:163:6:virtual void WatchCube::handleDragEvent(const touchgfx::DragEvent&)	40	static
+WatchCube.cpp:324:6:virtual void WatchCube::handleTickEvent()	56	static
+WatchCube.cpp:645:6:void WatchCube::updateDigitalClock(int, int, int)	16	static
+WatchCube.cpp:665:6:void WatchCube::startCubeAnimation()	8	static
+WatchCube.cpp:14:1:WatchCube::~WatchCube()	16	static
+WatchCube.cpp:14:1:virtual WatchCube::~WatchCube()	8	static
+WatchCube.cpp:20:6:virtual void WatchCube::initialize()	80	static

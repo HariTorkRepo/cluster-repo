@@ -1,0 +1,5 @@
+IntroPresenter.hpp:28:13:IntroPresenter::~IntroPresenter()	1
+IntroPresenter.cpp:10:6:virtual void IntroPresenter::activate()	1
+IntroPresenter.hpp:28:13:virtual IntroPresenter::~IntroPresenter()	1
+IntroPresenter.hpp:28:13:virtual void* IntroPresenter::_ZThn4_N14IntroPresenterD1Ev()	1
+IntroPresenter.cpp:4:1:IntroPresenter::IntroPresenter(IntroView&)	1

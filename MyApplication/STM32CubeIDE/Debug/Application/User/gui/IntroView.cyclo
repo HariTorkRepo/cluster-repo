@@ -1,0 +1,13 @@
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+IntroViewBase.hpp:28:18:virtual void IntroViewBase::goToMain()	1
+IntroView.cpp:30:6:virtual void IntroView::tearDownScreen()	1
+IntroView.hpp:11:13:IntroView::~IntroView()	1
+IntroView.hpp:11:13:virtual IntroView::~IntroView()	1
+TextureMapper.hpp:216:18:virtual void touchgfx::TextureMapper::updateZAngle(float)	1
+TextureMapper.hpp:612:18:virtual void touchgfx::TextureMapper::invalidateContent() const	2
+IntroView.cpp:8:1:IntroView::IntroView()	1
+IntroView.cpp:318:7:float IntroView::floatEaseOut(float, float, float, float)	1
+IntroView.cpp:328:7:float IntroView::floatBackEaseOut(float, float, float, float)	1
+IntroView.cpp:23:6:virtual void IntroView::setupScreen()	1
+IntroView.cpp:35:6:virtual void IntroView::handleTickEvent()	25
+IntroView.cpp:282:6:virtual void IntroView::screenIsEntered()	1

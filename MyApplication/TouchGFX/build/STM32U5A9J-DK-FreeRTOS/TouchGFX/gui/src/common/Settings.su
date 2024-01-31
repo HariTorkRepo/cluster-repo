@@ -1,0 +1,1 @@
+Settings.cpp:3:11:static Settings& Settings::getInstance()	0	static
